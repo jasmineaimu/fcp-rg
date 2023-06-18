@@ -85,11 +85,11 @@ var _ = Describe("Task Tracker Plus", Ordered, func() {
 
 	db := db.NewDB()
 	dbCredential := model.Credential{
-		Host:         "localhost",
-		Username:     "propen",
-		Password:     "propen",
-		DatabaseName: "fcp",
-		Port:         5432,
+		Host:         "containers-us-west-12.railway.app",
+		Username:     "postgres",
+		Password:     "4jv2JYcqtN1rXHLpdJ1w",
+		DatabaseName: "railway",
+		Port:         6475,
 		Schema:       "public",
 	}
 
